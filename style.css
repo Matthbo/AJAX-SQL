@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: linear-gradient(to right, #cccccc , #e5e5e5, #cccccc);
+}
+
+#frame{
+	width: 960px;
+	margin: 20px auto 0;
+	padding: 15px;
+	background-color: rgba(255,255,255,0.3);
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+#head{
+	margin: 0 auto 15px;
+	width: 50%;
+
+}
+
+#head #textbox{
+	width: 75%;
+}
+
+#head #submit{
+	width: 20%;
+	float: right;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td{
+	border: 0 solid #fff;
+	border-width: 2px 0;
+	font-size: 16pt;
+	padding: 5px;
+}
+
+td:first-child{
+	border-width: 2px 0 2px 2px;
+	width: 90%;
+}
+
+td:last-child{
+	border-width: 2px 2px 2px 0;
+}
